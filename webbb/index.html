@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Hello World</title>
+  <link rel="stylesheet" href="hello.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1855953840586489"
+     crossorigin="anonymous"></script>
+    <script>
+    
+    function p1(){
+        var textInBox4 = document.getElementById("testing").value;
+        if (textInBox4 === "Malta"){
+            window.location.replace("about.html");
+        }else{
+            alert("Wrong Password, Pls Try Again");
+        }}
+        
+        function reg(){
+            window.location.replace("register.html");
+        }
+        
+        function log(){
+            alert("Logged In")
+        }
+        
+    </script>
+    </head>
+    
+<body>
+    
+<div class="white">
+     <p class="p1">Password
+        <br>(Min Length 4 Characters)</p><input type="textInBox4" minlength="4" id="testing" placeholder="password" required style="-webkit-text-security: disc;">
+    <br>
+    <br>
+    <input type="button" value="clickme" onclick="log();p1()">
+    <input type="button" value="Register" onclick="reg()">
+    
+    <br>
+    <br>
+    <img src="lock.jpg" width="60%" height="50%";>
+    
+</div>
+    </body>
+</html>

@@ -1,0 +1,235 @@
+body{
+    background-color: black;
+}
+.aspect-ratio-16-9 {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.aspect-ratio-16-9 > * {
+  position: absolute;
+  inset: 0;
+}
+.h1a{
+    color: aliceblue;
+    text-align: center;
+    font-size:46px;
+
+}
+
+.h1r{
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px; 
+}
+
+.h1r1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px; 
+    cursor: pointer;
+}
+.p1{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.divr{
+    border: 0px outset white;
+    margin-right: 0.01%;
+    padding: 1%;
+    width: 30%;
+    float: right;
+}
+
+.divl{
+    width: 100%;
+    height: 24%;
+    float: left;
+    background-color: darkgray;
+    text-align: center;
+    border-bottom-color: whitesmoke;
+}
+
+.div1{
+    clear: both;
+    clear: both;
+    float: right;
+    background-color: dimgrey;
+    border: 1px outset black;
+    text-align: center;
+    color: aliceblue;
+    width: 30%;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.p2{
+    color: black;
+    
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+
+
+.topnav a.active {
+  background-color: 000231;
+  color: white;
+}
+
+.div2{
+    clear: both;
+    background-color: dimgrey;
+    border: 1px outset black;
+    text-align: center;
+    color: aliceblue;
+    width: 30%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 20px;
+}
+    
+
+.div3{
+    background-color: dimgrey;
+    border: 1px outset black;
+    text-align: center;
+    color: aliceblue;
+    width: 33.3%;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.faq{
+    float: right;
+    margin-right: 220;
+    margin-top: 170;
+}
+
+.contact-content img {
+    max-width: 210px;
+}
+
+section, footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 16px;
+}
+
+.test{
+    text-align: center;
+    clear: both;
+}
+
+.p1{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+.green{
+    background-color: forestgreen;
+    height: 5%;
+    width: 10%;
+    cursor: pointer;
+    text-align: center;
+    padding: 1px;
+    margin-left: 45%;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+
+.sq1{
+    height: 5%;
+    width: 5%;
+    float: left;
+    margin-top: 10%;
+}
+
+.sq2{
+    height: 5%;
+    width: 5%;
+    float: left;
+    margin-top: 20%;
+}
+
+.sq3{
+    height: 5%;
+    width: 5%;
+    float: right;
+    margin-top: 10%;
+}
+
+.sq4{
+    height: 5%;
+    width: 5%;
+    float: right;
+    margin-top: 80%;
+}
+
+.sq5{
+    height: 5%;
+    width: 5%;
+    float: center;
+}
+
+.sq6{
+    height: 5%;
+    width: 5%;
+    margin-top: 40%;
+    float: left;
+}
+
+.sq7{
+    height: 10%;
+    width: 10%;
+    margin-top: 50%;
+    float: left; 
+    cursor: pointer;
+}
+
+.sq7:hover{
+    color: white;
+    background-color: white;
+}
+
+.sq8{
+    height: 5%;
+    width: 5%;
+    margin-top: 70%;
+    float: left;
+}
+.sq1{
+    height: 5%;
+    width: 5%;
+}

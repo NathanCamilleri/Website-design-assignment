@@ -1,0 +1,180 @@
+body{
+background-color: black;
+}
+
+.aspect-ratio-16-9 {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.aspect-ratio-16-9 > * {
+  position: absolute;
+  inset: 0;
+}
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: 000231;
+  color: white;
+}
+
+.hb{
+    height: 46%;
+    background-color: darkgrey;
+    background-size: cover;
+    position: relative;
+}
+
+.bot{
+    height: 46%;
+    background-color: darkgreen;
+    background-size: cover;
+    position: relative;
+}
+.hbtop{
+    position: absolute;
+    height: 44%;
+    width: 20%;
+    top: 220px;
+    right: 12%;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: azure;
+    padding: 2%;
+    box-shadow: 1px 1px grey;
+    
+}
+
+.hbtop1{
+    position: absolute;
+    height: 10%;
+    width: 40%;
+    top: 220px;
+    left: 80px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 60px;
+    color: azure;
+    padding: 2%;
+    color: red;
+    
+}
+
+.get{
+    position: absolute;
+    height: 30%;
+    width: 26%;
+    top: 56.5%;
+    left: 8%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    color: azure;
+    padding: 2%;
+    
+}
+
+.head{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+ .hey{
+    font-size: 18px;
+    color: white;
+}
+
+ .terms{
+    font-size: 10px;
+    color: black;
+    font-weight: 200;
+}
+
+.call{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.mob{
+    color: grey;
+    font-size: 16px;
+
+}
+
+.con{
+    position: absolute;
+    height: 30%;
+    width: 26%;
+    top: 10%;
+    left: 6%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    color: azure;
+    padding: 2%;
+    
+}
+
+.name{
+    width: 100%;
+    background-color: white;
+    color: lightgray;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.email{
+    width: 100%;
+    background-color: white;
+    color: lightgray;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.mes{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    color: lightgray;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.ok{
+    width: 30%;
+    border-radius: 14px;
+    background-color: hotpink;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    float: center;
+    padding: 1px;
+}
+

@@ -1,0 +1,118 @@
+body{
+    background-image: url(back.png);
+}
+.h1a{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.aspect-ratio-16-9 {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.aspect-ratio-16-9 > * {
+  position: absolute;
+  inset: 0;
+}
+.topnav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: 000231;
+  color: white;
+}
+
+.div1{
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('suit1.png');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%;
+    margin-left: 4px;
+    
+}
+
+.div2{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('suit2.jpg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%  
+}
+
+.div3{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('suit3.jpg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%  
+}
+
+.div4{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('suit4.jpg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%  
+}
+
+.ag1{
+    float: inherit;
+}
+
+.figcaption{
+    float: inherit;
+}
+
+.p1{
+    position: absolute;
+}
+
+section, footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 16px;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}

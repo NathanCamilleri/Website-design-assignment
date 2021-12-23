@@ -1,0 +1,143 @@
+body{
+    background-image: url(buffu.jpg);
+}
+.aspect-ratio-16-9 {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.aspect-ratio-16-9 > * {
+  position: absolute;
+  inset: 0;
+}
+.contact{
+    background-color: darkgray;
+    opacity: 100%;
+    text-align: center;
+    height: 30%;
+}
+
+.h1a{
+    color: white;
+    font-size: 50px;
+}
+
+
+.h4a{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.bdiv{
+    border: 2px outset black;
+    text-align: center;
+    background-color:black;
+    height: 100%
+}
+
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: 000231;
+  color: white;
+}
+
+.contact-content img {
+    max-width: 210px;
+}
+
+section, footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 16px;
+}
+
+.number{
+    font-size: 26px;
+    background-color: black;
+    opacity: 100%;
+    border: outset black;
+    text-align: center;
+    color: skyblue;
+    height: 50%;
+    margin-left: 40%;
+    margin-right: 20%;
+    text-decoration-skip: 1px;
+}
+
+.div1{
+    border: 1px outset black;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    width: 36%;
+    height: 30%;
+    margin-left: 10%;
+    border-radius: 4%;
+    float: left;
+    
+}
+
+.div2{
+    border: 1px outset black;
+    text-align: center;
+    background-color: transparent;
+    color: aliceblue;
+    width:36%;
+    height: 30%;
+    margin-left: 50%;
+    border-radius: 4%;
+    float: left;
+    
+}
+
+    
+}
+
+.talk{
+    color: black;
+}
+
+.mob{
+    color: skyblue;
+    font-size:30px;
+}
+
+.call{
+    font-size: 26px;
+    color: black;
+}
+
+.ind{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 1%;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}

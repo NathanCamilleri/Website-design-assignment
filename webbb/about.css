@@ -1,0 +1,121 @@
+body{
+    background-image: url(back.png);
+}
+
+.aspect-ratio-16-9 {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.aspect-ratio-16-9 > * {
+  position: absolute;
+  inset: 0;
+}
+
+.about{
+    background-color: transparent;
+    height: 40%;
+    width: 100%;
+}
+
+.h11{
+    color: whitesmoke;
+    font-size: 60px;
+    float: center;
+    
+}
+
+.h12{
+    color: whitesmoke;
+    font-size: 30px;
+    float: center;
+    
+}
+
+.bdiv{
+    border: 2px outset black;
+    text-align: center;
+    background-color:black;
+    height: 100%
+}
+
+.topnav {
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: 000231;
+  color: white;
+}
+
+.contact-content img {
+    max-width: 210px;
+}
+
+section, footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 16px;
+}
+
+.h41{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.babout{
+    background-color: black;
+    opacity: 100%;
+    border: outset black;
+    text-align: center;
+    color: skyblue;
+    height: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-decoration-skip: 1px;
+}
+.h3{
+    color: blue;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+
+.us{
+    width: 56%;
+    border-color: white;
+    background-color: ghostwhite;
+    opacity: 30%;
+    float: center;
+    margin-left: 22%;
+    padding: 8px;
+}
+
+.glogo{
+    margin-left: 35%;
+    width: 30%;
+    height: 45%;
+}

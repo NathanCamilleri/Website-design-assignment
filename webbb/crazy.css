@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+}
+.h1a{
+    color: aliceblue;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    text-decoration-color: red;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: 000231;
+  color: white;
+}
+
+.div1{
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('8.jpg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%;
+    margin-left: 4px;
+    
+}
+
+.div2{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('cheat.jpg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%  
+}
+
+.div3{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('rummy.jpg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%  
+}
+
+.div4{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('lucky.jpg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%  
+}
+
+.ag1{
+    float: inherit;
+}
+
+.figcaption{
+    float: inherit;
+}
+
+.p1{
+    position: absolute;
+}
+
+section, footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 16px;
+}
+
+.alldivs{
+    cursor: pointer;
+}
