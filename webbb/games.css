@@ -105,6 +105,102 @@ body{
     border-color: white;
     border: 2px solid forestgreen;
 }
+
+.div5{
+    clear: both;
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('fish.png');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%;
+}
+
+.div5:hover{
+    border-color: white;
+    border: 2px solid forestgreen;
+}
+
+
+.div6{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('uno.jpeg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%;  
+}
+
+.div6:hover{
+    border-color: white;
+    border: 2px solid forestgreen;
+}
+
+
+.div7{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-image: url('snap.jpeg');
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%;
+}
+
+.div7:hover{
+    border-color: white;
+    border: 2px solid forestgreen;
+}
+
+
+.div8{
+    margin-left: 10px;
+    border: 1px outset black;
+    text-align: center;
+    background-color: transparent;
+    background-size: cover;
+    color: aliceblue;
+    float: left;
+    width: 24%;
+    height: 40%  
+}
+
+.div1:hover .tooltiptext {
+  visibility: visible;
+}
+
+.div2:hover .tooltiptext {
+  visibility: visible;
+}
+
+.div3:hover .tooltiptext {
+  visibility: visible;
+}
+
+.div4:hover .tooltiptext {
+  visibility: visible;
+}
+
+.div5:hover .tooltiptext {
+  visibility: visible;
+}
+
+.div6:hover .tooltiptext {
+  visibility: visible;
+}
+
+.div7:hover .tooltiptext {
+  visibility: visible;
+}
+
 .aspect-ratio-16-9 {
   width: 100%;
   padding-top: 56.25%;
@@ -146,3 +242,138 @@ footer img {
 }
 
 img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+
+.div1 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.div1 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 2;
+}
+
+.div2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.div2 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+      position: absolute;
+  z-index: 2;
+
+}
+
+.div3 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.div3 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+      position: absolute;
+  z-index: 2;
+}
+
+.div4 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.div4 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+      position: absolute;
+  z-index: 2;
+}
+
+.div5 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.div5 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+      position: absolute;
+  z-index: 2;
+}
+
+.div6 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.div6 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+      position: absolute;
+  z-index: 2;
+}
+
+.div7 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.div7 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+    
+      position: absolute;
+  z-index: 2;
+}
